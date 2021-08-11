@@ -1,0 +1,197 @@
+{
+  "teacher":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "应到",
+        "name": "should",
+        "type": "number"
+      },
+      {
+        "displayName": "正常",
+        "name": "normal",
+        "type": "number"
+      },
+      {
+        "displayName": "迟到",
+        "name": "late",
+        "type": "number"
+      },
+      {
+        "displayName": "早退",
+        "name": "leaveearly",
+        "type": "number"
+      },
+      {
+        "displayName": "请假",
+        "name": "leave",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "教师", 388, 341, 21, 12, 10]
+    ],
+    "sourceHeader":false
+  },
+  "student":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "",
+        "name": "total",
+        "type": "number"
+      },
+      {
+        "displayName": "正常",
+        "name": "normal",
+        "type": "number"
+      },
+      {
+        "displayName": "迟到",
+        "name": "late",
+        "type": "number"
+      },
+      {
+        "displayName": "早退",
+        "name": "leaveearly",
+        "type": "number"
+      },
+      {
+        "displayName": "请假",
+        "name": "leave",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "学生", 3918, 3831, 45, 23, 19]
+    ],
+    "sourceHeader":false
+  },
+  "totalChecking":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "",
+        "name": "total",
+        "type": "number"
+      },
+      {
+        "displayName": "迟到",
+        "name": "late",
+        "type": "number"
+      },
+      {
+        "displayName": "请假",
+        "name": "leave",
+        "type": "number"
+      },
+      {
+        "displayName": "旷课",
+        "name": "truant",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级", 7, 5, 3],
+      [1, "二年级", 7, 5, 3],
+      [1, "三年级", 7, 5, 3],
+      [1, "四年级", 7, 5, 3],
+      [1, "五年级", 7, 5, 3],
+      [1, "六年级", 7, 5, 3]
+    ],
+    "sourceHeader":false
+  },
+  "totalCheckingRate":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "",
+        "name": "rate",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "1班", 99],
+      [2, "2班", 78],
+      [3, "3班", 100],
+      [4, "4班", 96],
+      [5, "5班", 89],
+      [6, "6班", 94],
+      [7, "7班", 71],
+      [8, "8班", 93],
+      [9, "9班", 94],
+      [10, "10班", 71]
+    ],
+    "sourceHeader":false
+  },
+  "dormitoryChecking":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "正常",
+        "name": "normal",
+        "type": "number"
+      },
+      {
+        "displayName": "异常",
+        "name": "abnormal ",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "07-16", 91, 9],
+      [2, "7-17", 55 ,45],
+      [3, "7-18", 71, 29],
+      [4, "7-19", 80 ,20],
+      [5, "7-20",68, 32],
+      [6, "7-21",95, 5],
+      [7, "7-22",96, 4]
+    ],
+    "sourceHeader":false
+  }
+}

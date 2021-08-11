@@ -1,0 +1,161 @@
+{
+  "primarySchool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "次数",
+        "name": "times",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "小学一年级", 45],
+      [1, "小学二年级", 49],
+      [1, "小学三年级", 59],
+      [1, "小学四年级", 63],
+      [1, "小学五年级", 65],
+      [1, "小学六年级", 78]
+    ],
+    "sourceHeader":false
+  },
+  "juniorHighSchool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "次数",
+        "name": "times",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "初中一年级", 96],
+      [1, "初中二年级", 101],
+      [1, "初中三年级", 196]
+    ],
+    "sourceHeader":false
+  },
+  "seniorHighSchool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "次数",
+        "name": "times",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "高中一年级", 163],
+      [1, "高中二年级", 263],
+      [1, "高中三年级", 369]
+    ],
+    "sourceHeader":false
+  },
+  "class":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "平均分",
+        "name": "average",
+        "type": "number"
+      },
+      {
+        "displayName": "最高分",
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "displayName": "最低分",
+        "name": "min",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级1班", 550, 603, 280],
+      [1, "一年级2班", 560, 610, 300],
+      [1, "一年级3班", 575, 615, 360],
+      [1, "一年级4班", 580, 620, 480],
+      [1, "一年级5班", 569, 600, 410],
+      [1, "一年级6班", 590, 616, 450]
+    ],
+    "sourceHeader":false
+  },
+  "mark":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "优秀",
+        "name": "excellent",
+        "type": "number"
+      },
+      {
+        "displayName": "良好",
+        "name": "good",
+        "type": "number"
+      },
+      {
+        "displayName": "一般",
+        "name": "ordinary",
+        "type": "number"
+      },
+      {
+        "displayName": "不及格",
+        "name": "fail",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级1班", 13, 23, 35, 12],
+      [1, "一年级2班", 15, 19, 28, 12],
+      [1, "一年级3班", 23, 12, 21, 3],
+      [1, "一年级4班", 13, 23, 30, 12],
+      [1, "一年级5班", 21, 18, 19, 5],
+      [1, "一年级6班", 18, 29, 23, 10]
+    ],
+    "sourceHeader":false
+  }
+}

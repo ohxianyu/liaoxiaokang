@@ -1,0 +1,119 @@
+{
+  "flowTrend":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "",
+        "name": "trend",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "08:00", 400],
+      [2, "09:00", 456],
+      [3, "10:00", 496],
+      [4, "11:00", 355],
+      [5, "12:00", 256],
+      [6, "13:00", 211],
+      [7, "14:00", 365],
+      [8, "15:00", 469],
+      [9, "16:00", 452],
+      [10 ,"17:00", 403],
+      [11 ,"18:00",369]
+    ],
+    "sourceHeader":false
+  },
+  "cpu":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "名称",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "占比",
+        "name": "percentage",
+        "type": "number"
+      },
+      {
+        "displayName": "参数",
+        "name": "parameter",
+        "type": "ordinal"
+      }
+    ],
+    "source":[
+      [1, "CPU", 35.6, "12.5GHz/105.0GHz"]
+    ],
+    "sourceHeader":false
+  },
+  "memory":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "名称",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "占比",
+        "name": "percentage",
+        "type": "number"
+      },
+      {
+        "displayName": "参数",
+        "name": "parameter",
+        "type": "ordinal"
+      }
+    ],
+    "source":[
+      [1, "内存", 19.9, "27.2GB/128.0GB"]
+    ],
+    "sourceHeader":false
+  },
+  "store":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "名称",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "占比",
+        "name": "percentage",
+        "type": "number"
+      },
+      {
+        "displayName": "参数",
+        "name": "parameter",
+        "type": "ordinal"
+      }
+    ],
+    "source":[
+      [1, "存储", 1.8, "260.3GB/14.0TB"]
+    ],
+    "sourceHeader":false
+  }
+}

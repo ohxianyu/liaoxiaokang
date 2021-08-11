@@ -1,0 +1,143 @@
+{
+  "primarySchool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "年级平均",
+        "name": "average",
+        "type": "number"
+      },
+      {
+        "displayName": "最高值",
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "displayName": "最低值",
+        "name": "min",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级", 28, 75, 12],
+      [1, "二年级", 28, 65, 18],
+      [1, "三年级", 28, 71, 9],
+      [1, "四年级", 28, 60, 15],
+      [1, "五年级", 28, 79, 11],
+      [1, "六年级", 28, 49, 20]
+    ],
+    "sourceHeader":false
+  },
+  "juniorhighschool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "年级平均",
+        "name": "average",
+        "type": "number"
+      },
+      {
+        "displayName": "最高值",
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "displayName": "最低值",
+        "name": "mini",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级", 28, 75, 12],
+      [1, "二年级", 28, 65, 18],
+      [1, "三年级", 28, 71, 9]
+    ],
+    "sourceHeader":false
+  },
+  "seniorhighschool":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "年级平均",
+        "name": "average",
+        "type": "number"
+      },
+      {
+        "displayName": "最高值",
+        "name": "max",
+        "type": "number"
+      },
+      {
+        "displayName": "最低值",
+        "name": "mini",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "一年级", 28, 75, 12],
+      [1, "二年级", 28, 65, 18],
+      [1, "三年级", 28, 71, 9]
+    ],
+    "sourceHeader":false
+  },
+  "level":{
+    "dimensions":[
+      {
+        "displayName": "",
+        "name": "device_type",
+        "type": "number"
+      },
+      {
+        "displayName": "",
+        "name": "device_type_name",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "占比",
+        "name": "proportion",
+        "type": "ordinal"
+      },
+      {
+        "displayName": "人数",
+        "name": "number",
+        "type": "number"
+      }
+    ],
+    "source":[
+      [1, "0-10元", "5%", 50],
+      [1, "10-20元", "15%", 150],
+      [1, "20-30元", "20%", 200],
+      [1, "30-40元", "25%", 250],
+      [1, "40-50元", "30%", 300],
+      [1, "50元以上", "35%", 350]
+    ],
+    "sourceHeader":false
+  }
+}

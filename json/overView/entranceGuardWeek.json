@@ -1,0 +1,35 @@
+{
+  "dimensions":[
+    {
+      "displayName": "",
+      "name": "device_type",
+      "type": "number"
+    },
+    {
+      "displayName": "",
+      "name": "device_type_name",
+      "type": "ordinal"
+    },
+    {
+      "displayName": "",
+      "name": "total",
+      "type": "number"
+    },
+    {
+      "displayName": "正常通过",
+      "name": "normal",
+      "type": "number"
+    },
+    {
+      "displayName": "异常报警",
+      "name": "warning",
+      "type": "number"
+    }
+  ],
+  "source":[
+    [1, "正门", 14589, 1189, 3400],
+    [2, "东门", 1560, 1455, 105],
+    [3, "南门", 2088, 1956, 132]
+  ],
+  "sourceHeader":false
+}
