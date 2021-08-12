@@ -63,7 +63,7 @@
         #source,
         #output-wrap {
             height: 160px;
-            width: 80vw;
+            width: 60vw;
             overflow-y: scroll;
             /* background: #282828; */
             color: #fff;
@@ -110,18 +110,38 @@
         </div>
         <div id="source" style="display: none;">
             <span class="p">
-                玉婷，小仙女，你好啊！
+                玉婷小仙女，你好！
                 <br>
-                今天是阳历8月14号，也是农历7月初7，也就是情人节。
+                今天是阳历8月14号，也是农历7月初7，也是情人节。
                 <br>
+                我应该会在这一天把这一封信给到你。
                 <br>
-                上个周日，就是8月8号，本来计划只加班到上午。
+                上个周日，就是8月8号，只加班到下午1点多。
                 <br>
-                 下去，就去你那边了，打算去看看你(偷偷看一眼就好)。
+                 然后，就过去你那边了，打算去看看你(偷偷看一眼就好)。
                 <br>
                 一想到你离下班时间还早，
-                我就自己去看了个电影
-                <!-- <img  src="./assets/move.png" alt=""> -->
+                我就自己去看了个电影。
+                <br>
+                我很想邀请你一起去的。
+                <br>
+                可是，我可能会收到拒绝的回复。
+                <br>
+                或者，死沉大海
+                <br>
+                或者，被拉黑。
+                <br>
+                这是让我最伤心的方式了。
+                <br>
+                <img  src="./assets/move.png" alt="">
+                <br>
+                
+                <br>
+                <ul>
+                    <li>或许我们都应该学会接受喜欢的人不喜欢自己。</li>
+                    <li>其实我这么久放不下并不是非要她欠我一个解释，而是我接受不了他已经不喜欢我了的事实。我无法面对我们。</li>
+                    <li>你不必后退，我不再上前就是了。</li>
+                </ul>
                 <br>
                 只看了一半，就又通知回去加班，很遗憾。
                 <br>
@@ -133,6 +153,76 @@
                 <br>
                 还有一个我想出来的你。
                 <br>
+                <br>
+                当初，你说听闻爱情，十有九悲。
+                <br>
+                但是我并没有在意。因为，那个时候，我喜欢的人就在身边。
+                <br>
+                所以，我并是很赞同。
+                <br>
+                现在看来，你是对的。
+                <br>
+                从7月1号你跟我提分手，到现在8月12号了，这快一个半月的时间。
+                <br>
+                我想了很多，我也反思了很多。
+                <br>
+                是我不太懂得珍惜，不太懂得怎么去爱。
+                <br>
+                没有给你足够的关心，还经常惹你生气。
+                <br>
+                5月23日，我跟你表白
+                <br>
+                7月1日，你跟我提分手
+                <br>
+                跟我在一起这短短的40天里，
+                <br>
+                我一直在以我自己舒服的状态里跟你相处，
+                <br>
+                而，没有照顾到你的感受。
+                <br>
+                <br>
+                没有让你更开心，反而好像让你更烦恼了。
+                <br>
+                真的是很抱歉！我也很内疚，
+                <br>
+                想想，自己的一些做法，
+                真的是太蠢了。
+                <br>
+                喜欢一个人，总得让她开心吧，
+                <br>
+                如果觉得喜欢谁，谁就一定要跟自己在一起，
+                <br>
+                那这还是喜欢吗?
+                <br>
+                可是，我就是嘴上这么说说，
+                <br>
+                其实我快伤心死了。
+                <br>
+                我不确定要用多久的时间才能放下你。
+                <br>
+                也不敢保证真的把你忘了。
+                <br>
+                其实我知道你这次是真的想离开我了。
+                <br>
+                只是，我不想接受这个事实。
+                <br>
+                偏要死缠烂打的纠缠你。
+                <br>
+                对不起，请再给我一些时间。
+                <br>
+                如果陪我到最后的是你，
+                <br>
+                一路风雨也没有关系。
+                <br>
+                如果陪我到最后的不是你，
+                <br>
+                我们的点点滴滴我也会埋藏到心底。
+                <br>
+                如果我们还能一起走，晚一点也没关系。
+                <br>
+                因为，那个撒娇的你，仿佛还在昨天。
+                <br>
+                因为，我还在原地等你...
 
             </span>
 
@@ -145,9 +235,7 @@
     </div>
     <canvas id="canvas"></canvas>
     <audio autoplay="autoplay">
-        <source src="http://hovertree.com" type="audio/ogg">
-        <source src="http://cms.hovertree.com/hovertreesound/hovertreexihuanni.mp3" type="audio/mpeg">
-        <source src="./assets/hovertreexihuanni.mp3">
+        <source src="./assets/signal.mp3">
         <br />
     </audio>
     <script type="text/javascript" src="./js/hovertreewelcome.js"></script>
@@ -158,9 +246,9 @@
             let SETID = setInterval(function () {
                 ele.scrollTop = ele.scrollHeight
             }, 300);
-            // setTimeout(() => {
-            //     clearInterval(SETID);
-            // }, 15000);
+            setTimeout(() => {
+                clearInterval(SETID);
+            }, 320000);
             // ele.onmouseover = function () {
             //     clearInterval(SETID);
             // }
@@ -173,7 +261,7 @@
                 var typing = new Typing({
                     source: document.getElementById('source'),
                     output: document.getElementById('output'),
-                    delay: 40
+                    delay: 60
                 });
                 typing.start();
 
