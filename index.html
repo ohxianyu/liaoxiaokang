@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="./font/stylesheet.css">
     <link href="./css/hovertreewelcome.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="./css/typing.css">
+    <!--[if lt IE 9]>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/es5-shim/3.4.0/es5-shim.min.js"></script>
+    <![endif]-->
     <style>
         .typed-cursor {
             opacity: 1;
@@ -59,14 +62,16 @@
                 opacity: 1;
             }
         }
-
+        .top{
+            color: #ffdc00;
+        }
         #source,
         #output-wrap {
             height: 160px;
             width: 60vw;
             overflow-y: scroll;
             /* background: #282828; */
-            color: #fff;
+            color: yellow;
             padding: 20px;
             font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
             font-size: 18px;
@@ -125,9 +130,9 @@
                 <br>
                 我很想邀请你一起去的。
                 <br>
-                可是，我可能会收到拒绝的回复。
+                可是，我会收到拒绝的回复。
                 <br>
-                或者，死沉大海
+                或者，死沉大海。
                 <br>
                 或者，被拉黑。
                 <br>
@@ -135,23 +140,26 @@
                 <br>
                 <img  src="./assets/move.png" alt="">
                 <br>
-                
                 <br>
                 <ul>
                     <li>或许我们都应该学会接受喜欢的人不喜欢自己。</li>
-                    <li>其实我这么久放不下并不是非要她欠我一个解释，而是我接受不了他已经不喜欢我了的事实。我无法面对我们。</li>
+                    <li>其实我这么久放不下并不是非要她欠我一个解释，而是我接受不了他已经不喜欢我了的事实。我无法面对。</li>
                     <li>你不必后退，我不再上前就是了。</li>
                 </ul>
+                <br>
+                以前，不觉得爱情片有什么好看的。
+                <br>
+                只是没想到，原来要经历过，才能感同身受。
                 <br>
                 只看了一半，就又通知回去加班，很遗憾。
                 <br>
                 没有想到，一个人看电影这事，我比你先完成。
                 <br>
-                来看电影的，有一对情侣、有2个女生一起的闺蜜、有4个女生一起的同学。
+                来看电影的，有一对情侣、有2个女生、有4个女生。
                 <br>
                 还有一个我。
                 <br>
-                还有一个我想出来的你。
+                还有一个我想象出来的你。
                 <br>
                 <br>
                 当初，你说听闻爱情，十有九悲。
@@ -170,9 +178,9 @@
                 <br>
                 没有给你足够的关心，还经常惹你生气。
                 <br>
-                5月23日，我跟你表白
+                5月23日，我跟你表白。
                 <br>
-                7月1日，你跟我提分手
+                7月1日，你跟我提分手。
                 <br>
                 跟我在一起这短短的40天里，
                 <br>
@@ -183,9 +191,10 @@
                 <br>
                 没有让你更开心，反而好像让你更烦恼了。
                 <br>
-                真的是很抱歉！我也很内疚，
+                真的是很抱歉！
                 <br>
                 想想，自己的一些做法，
+                <br>
                 真的是太蠢了。
                 <br>
                 喜欢一个人，总得让她开心吧，
@@ -248,7 +257,7 @@
             }, 300);
             setTimeout(() => {
                 clearInterval(SETID);
-            }, 320000);
+            }, 250000);
             // ele.onmouseover = function () {
             //     clearInterval(SETID);
             // }
